@@ -1,44 +1,44 @@
 ### [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6055)
 
 
- >**Problem Description**
- On a two-dimensional plane, give you n integer points. Your task is to figure out how many different regular polygon these points can make.
+> **Problem Description**
+> On a two-dimensional plane, give you n integer points. Your task is to figure out how many different regular polygon these points can make.
  
 
- >**Input**
- The input file consists of several test cases. Each case the first line is a numbers N (N <= 500). The next N lines ,each line contain two number Xi and Yi(-100 <= xi,yi <= 100), means the points’ position.(the data assures no two points share the same position.)
+> **Input**
+> The input file consists of several test cases. Each case the first line is a numbers N (N <= 500). The next N lines ,each line contain two number Xi and Yi(-100 <= xi,yi <= 100), means the points’ position.(the data assures no two points share the same position.)
  
 
- >**Output**
-For each case, output a number means how many different regular polygon these points can make.
+> **Output**
+> For each case, output a number means how many different regular polygon these points can make.
  
 
- >**Sample Input**
- 4
- 0 0
- 0 1
- 1 0
- 1 1
- 6
- 0 0
- 0 1
- 1 0
- 1 1
- 2 0
- 2 1
+> **Sample Input**
+> 4
+> 0 0
+> 0 1
+> 1 0
+> 1 1
+> 6
+> 0 0
+> 0 1
+> 1 0
+> 1 1
+> 2 0
+> 2 1
  
 
- >**Sample Output**
- 1
- 2
+> **Sample Output**
+> 1
+> 2
  
- <font color=blue>**题目意思**</font>
+ **题目意思**
 给你n个点，接着给你这n个点的坐标，求这些点能组成多少个正多边形。
 
- <font color=blue>**解题思路**</font>
+**解题思路**
 因为都是整数点，所以可以知道这些点只能组成正四边形。所以我们将这些点按照横纵坐标排序，然后枚举两个点，暴力找另外两个点的位置是否存在就行。
 
-<font color=blue>**代码部分**</font>
+**代码部分**
 
 ```
 #include <bits/stdc++.h>
