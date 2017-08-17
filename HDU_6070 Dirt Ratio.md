@@ -1,13 +1,13 @@
 ### [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6070)
 
-### <font color=blue>**题目意思**</font>
+### **题目意思**
 
 给出n个数，求任意区间【left，right】的AC率中最小的那个值。
 
 区间AC率=distinct【left，right】/(right-left+1)
 distinct的中文意思是唯一的，特殊的，表示区间【left，right】中不同数字的个数
 
-### <font color=blue>**解题思路**</font>
+### **解题思路**
 
 我们求AC率，它无非就是0~1之间的一个数字，因此采用二分答案的方法求解。
 现在假设答案为mid，则 `distinct【left，right】/（right-left+1）<=mid`，说明答案是小于mid的。
@@ -28,7 +28,7 @@ pre[a[i]]记录前一次a[i]这个数字出现的位置，因此我们知道在�
 在循环过程中，只要有一个值小于mid*(right+1),就说明我们假设的值偏大了，循环完了也没出现这种情况
 说明假设的值偏小了。
 
-### <font color=blue>**代码部分**</font>
+### **代码部分**
 
 ```cpp
 #include <iostream>
