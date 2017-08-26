@@ -1,14 +1,14 @@
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=2222%E3%80%91)
 
-### <font color=blue>**题目意思**</font>
+### **题目意思**
 
 给你几个字符串，接着给你一个文本串，问你文本串中有几个前边所给的字符串。
 
-### <font color=blue>**解题思路**</font>
+### **解题思路**
 
 这就是一道简单的AC自动机的模板题，并没有什么难点。
 
-### <font color=blue>**代码部分**</font>
+### **代码部分**
 
 ```
 #include <iostream>
