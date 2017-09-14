@@ -1,4 +1,4 @@
-### [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=1754)
+ [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=1754)
 
 ### 题目意思 ###
 给你n个学生的成绩然后m个询问，Q时询问学生A到B的最高成绩，U时将A学生的成绩改为B
