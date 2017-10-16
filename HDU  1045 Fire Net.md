@@ -1,4 +1,4 @@
-> #### **[题目链接](http://acm.split.hdu.edu.cn/showproblem.php?pid=1045)**
+#### **[题目链接](http://acm.split.hdu.edu.cn/showproblem.php?pid=1045)**
 
 #### <font color=blue>**题目意思**</font>
 给你一个n*n的矩阵，让你在空地放枪支，其中要求“.”代表空地，“X”代表墙。要求枪支不能出现在同一行，同一列，除非中间有墙阻隔。现在问你最多能放多少枪支。
